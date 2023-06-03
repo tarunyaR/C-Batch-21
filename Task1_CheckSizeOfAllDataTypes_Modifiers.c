@@ -13,23 +13,26 @@ int main()
 {
 	printf("Size of integer data Type: %d \n",sizeof(int));
 	printf("Size of long int : %d \n",sizeof(long int));
+	//printf("Size of long long int : %d \n",sizeof(long long int));
 		// gcc -- warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long unsigned int’ use %ld format specifier.
 
 	printf("Size of short int : %d \n",sizeof(short int));
 
 	printf("Size of Float data Type: %d \n",sizeof(float));
 	printf("Size of long float : %d \n",sizeof(long float)); //warning C4215: nonstandard extension used : long float // error in Linux
-	
+	//printf("Size of long long float : %d \n",sizeof(long long float)); // error C2632: '__int64' followed by 'float' is illegal
 	//printf("Size of short float : %d \n",sizeof(short float)); //error C2632: 'short' followed by 'float' is illegal	<< Type float is the smallest floating type. non
 
 	printf("Size of char data Type: %d \n",sizeof(char)); 
 	//printf("Size of long char : %d \n",sizeof(long char));  //error C2632: 'long' followed by 'char' is illegal
 	//printf("Size of short char : %d \n",sizeof(short char)); //error C2632: 'short' followed by 'char' is illegal		<< Minimum size reserved in 1 byte. 
+	//printf("Size of long long char : %d \n",sizeof(long long char)); //error C2632: '__int64' followed by 'char' is illegal
 		//gcc --  error: both ‘short’ and ‘char’ in declaration specifiers
 
 	printf("Size of double data Type: %d \n",sizeof(double));
 	printf("Size of long double : %d \n",sizeof(long double));  // long double is not supported in gcc compilers. 
 	//printf("Size of short double : %d \n",sizeof(short double)); // error C2632: 'short' followed by 'double' is illegal
+	//printf("Size of long long double : %d \n",sizeof(long long double)); //error C2632: '__int64' followed by 'double' is illegal
 
 	printf("Size of void data Type: %d \n",sizeof(void)); // warning C4034: sizeof returns 0
 	//printf("Size of long void : %d \n",sizeof(long void)); //error C2632: 'long' followed by 'void' is illegal
@@ -63,6 +66,7 @@ Size of void data Type: 1
 
 Size of integer data Type: 4
 Size of long int : 4
+Size of long long int : 8
 Size of short int : 2
 Size of Float data Type: 4
 Size of long float : 8
