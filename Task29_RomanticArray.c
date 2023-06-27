@@ -1,5 +1,5 @@
 /***************************************************************
-STRUCTURES - Every member has its own memory example
+ROMANTIC ARRAY - 1D EXAMPLE
 
 Created By: Tarunya Raj
 Date      : 21/June/2023
