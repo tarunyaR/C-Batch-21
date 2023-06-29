@@ -21,6 +21,7 @@ int main(void)
 {
 	DEMO obj;
 	DEMO2 obj2;
+	printf("Size of DEMO %d \t Size of DEMO2 %d",sizeof(obj),sizeof(obj2)); //Example of Word size Allignment - Padding Bytes
 	printf("\niNo1= %d, iNo2=%d, iNo3=%d",obj.iNo1,obj.iNo2,obj.iNo3);
 	obj.iNo1=10;
 	printf("\niNo1= %d, iNo2=%d, iNo3=%d",obj.iNo1,obj.iNo2,obj.iNo3);

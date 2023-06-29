@@ -12,3 +12,9 @@ Task29 - Romantic Arrary Rules - 1D example
 Task30 - Romantic Arrary Rules - 2D example
 
 Task31 - Romantic Arrary Rules - 3D example
+
+Task32 - Pointers - use of pointers, pointer pointing to struct and pointer pointing to pointer.
+
+Task33 - Pointer Arthemetic - Addition, subtraction, Increment Decrement.
+
+
